@@ -1,0 +1,138 @@
+.login-box {
+  border-bottom: 0.1vh solid rgba(230, 230, 230, 0.5);
+  width: 35vw;
+  margin: auto;
+}
+
+.login-header {
+  text-align: center;
+  background-color: #303134;
+  border-bottom: 0.1vh solid rgba(230, 230, 230, 0.5);
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+
+.login-body {
+  text-align: center;
+  background-color: #303134;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+
+.login-footer {
+  text-align: center;
+  background-color: #303134;
+}
+
+.login-footer > button {
+  all: unset;
+  border: 0.1vh solid rgba(230, 230, 230, 0.5);
+  border-bottom: none;
+  margin-bottom: -0.1vh;
+  padding: 1vh 0vw;
+  width: 30%;
+  transition: 0.5s;
+}
+
+.login-footer > button:hover, .login-footer > button:focus {
+  cursor: pointer;
+  border-radius: 4px 4px 0px 0px;
+  border-bottom: none;
+  background-color: #303134;
+  color: white;
+}
+
+
+.login-input {
+  line-height: 80%;
+  margin-bottom: 1vh;
+}
+
+.login-input > input {
+  color: #c4c4c4;
+  background: none;
+  padding: 1vh 0.5vw;
+  margin-top: 0.3vh;
+  margin-bottom: 0.3vh;
+  width: 50%;
+  border: 0.1vh solid rgba(230, 230, 230, 0.5);
+  border-radius: 0px;
+  transition: 0.5s;
+}
+
+.login-input > input:focus {
+  outline: none;
+  color: white;
+  border-radius: 4px;
+  border: 0.1vh solid #01b5c9;
+  box-shadow: 0px 1px 12px -1px rgba(1, 181, 201, 0.3);
+}
+
+.error {
+  color: salmon;
+}
+
+.login-input > textarea {
+  color: #c4c4c4;
+  background: none;
+  padding: 1vh 0.5vw;
+  margin-top: 0.3vh;
+  margin-bottom: 0.3vh;
+  height: 15vh;
+  width: 60%;
+  border: 0.1vh solid rgba(230, 230, 230, 0.5);
+  border-radius: 0px;
+  resize: vertical;
+  transition: 0.5s;
+}
+
+.login-input > textarea:focus {
+  outline: none;
+  color: white;
+  border-radius: 4px;
+  border: 0.1vh solid #01b5c9;
+  box-shadow: 0px 1px 12px -1px rgba(1, 181, 201, 0.3);
+}
+
+.login-input > select {
+  color: #c4c4c4;
+  background: none;
+  padding: 1vh 0.5vw;
+  margin-top: 0.3vh;
+  margin-bottom: 0.3vh;
+  width: 50%;
+  border: 0.1vh solid rgba(230, 230, 230, 0.5);
+  border-radius: 0px;
+  box-sizing: content-box;
+  transition: 0.5s;
+}
+
+.login-input > select:focus {
+  outline: none;
+  color: white;
+  border-radius: 4px;
+  border: 0.1vh solid #01b5c9;
+  box-shadow: 0px 1px 12px -1px rgba(1, 181, 201, 0.3);
+}
+
+.login-input > select * {
+  color: #c4c4c4;
+  background-color: #48484B;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  .login-input > input, .login-input > select, .login-input > textarea {
+    width: 70%;
+  }
+
+  .login-footer > button {
+    width: 40%;
+    padding: 1.5vh 0.5vw;
+  }
+
+  .login-box {
+    width: 65vw;
+  }
+}

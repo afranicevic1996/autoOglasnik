@@ -1,0 +1,139 @@
+.edit-profile {
+  border-bottom: 0.1vh solid rgba(230, 230, 230, 0.5);
+  width: 35%;
+  margin: auto;
+  background-color: #303134;
+}
+
+.form-field-with-error {
+  display: inline-block;
+  width: 30%;
+}
+
+.info-section-form {
+  display: flex;
+  padding: 0.8vh 0.4vw;
+  border-bottom: 0.1vh solid rgba(230, 230, 230, 0.5);
+}
+
+.info-section-form > .gas-color {
+  align-self: center;
+}
+
+.form-field-with-error > input {
+  color: #c4c4c4;
+  background: none;
+  padding: 0.7vh 0.35vw;
+  width: 90%;
+  border: 0.1vh solid rgba(230, 230, 230, 0.5);
+  border-radius: 0px;
+  transition: 0.5s;
+}
+
+.form-field-with-error > input:focus {
+  outline: none;
+  color: white;
+  border-radius: 4px;
+  border: 0.1vh solid #01b5c9;
+  box-shadow: 0px 1px 12px -1px rgba(1, 181, 201, 0.3);
+}
+
+.form-field-with-error > select {
+  margin: 0;
+  color: #c4c4c4;
+  background: none;
+  padding: 0.6vh 0.35vw;
+  width: 90%;
+  border: 0.1vh solid rgba(230, 230, 230, 0.5);
+  border-radius: 0px;
+  transition: 0.5s;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing:content-box;
+  box-sizing:content-box;
+}
+
+.form-field-with-error > select:focus {
+  outline: none;
+  color: white;
+  border-radius: 4px;
+  border: 0.1vh solid #01b5c9;
+  box-shadow: 0px 1px 1px -1px rgba(1, 181, 201, 0.3);
+}
+
+.form-field-with-error > select * {
+  color: #c4c4c4;
+  background-color: #48484B;
+}
+
+
+.listing-info-footer {
+  text-align: center;
+  margin-top: 1vh;
+}
+
+.listing-info-footer > button {
+  all: unset;
+  border: 0.1vh solid rgba(230, 230, 230, 0.5);
+  border-bottom: none;
+  margin-bottom: -0.1vh;
+  padding: 1vh 0vw;
+  width: 30%;
+  transition: 0.5s;
+}
+
+.listing-info-footer > button:hover, .listing-info-footer > button:focus {
+  cursor: pointer;
+  border-radius: 4px 4px 0px 0px;
+  border: 0.1vh solid white;
+  border-bottom: none;
+  background-color: #303134;
+  color: white;
+}
+
+.data-parent {
+  margin: auto;
+  margin-top: 1vh;
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  align-items: start;
+  flex-direction: row;
+}
+
+.listing-child {
+  display: flex;
+  width: 49%;
+  margin: auto;
+}
+
+.favorite-child {
+  display: flex;
+  width: 49%;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  .edit-profile {
+    width: 90%;
+  }
+
+  .form-field-with-error {
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .data-parent {
+    flex-direction: column;
+  }
+
+  .listing-child, .favorite-child {
+    width: 100%;
+    margin-bottom: 1vh;
+  }
+
+  .favorite-child{
+    margin: auto;
+  }
+}

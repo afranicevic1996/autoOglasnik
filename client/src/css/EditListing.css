@@ -1,0 +1,30 @@
+.edit-container {
+  width: 99.5%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.image-box {
+  width: 70%;
+  margin-right: auto;
+  align-self: start;
+  justify-self: start;
+}
+
+@media only screen and (max-width: 1600px) {
+  .edit-container {
+    flex-direction: column-reverse;
+  }
+
+  .image-box {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 1vh;
+  }
+
+  .resize {
+    width: 90%;
+    margin: auto;
+  }
+}

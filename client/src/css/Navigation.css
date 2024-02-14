@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Roboto';
+  background-color: #202124;
+  color: #c4c4c4; 
+  font-size: 2vh;
+}
+
+.nav-box {
+  z-index: 1;
+  background-color: #303134;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border-bottom: 0.1vh solid rgba(230, 230, 230, 0.5);
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-box-left {
+  flex: 1 1 5vw;
+  padding-top: 1.3vh;
+  padding-bottom: 1.3vh;
+  margin-bottom: -0.1vh;
+  border-bottom: 0.1vh solid rgba(230, 230, 230, 0.01);
+  text-align: center;
+  transition: 0.5s;
+}
+
+.nav-box-left:hover {
+  border-bottom: 0.1vh solid #01b5c9;
+  background-color: rgba(230, 230, 230, 0.05);
+  color: white;
+  cursor: pointer;
+}
+
+.nav-box-center {
+  display: flex;
+  flex: 1 1 90vw;
+  justify-content: center;
+}
+
+
+.center-icon {
+  padding-top: 1.3vh;
+  padding-left: 1.3vh;
+  padding-right: 1.3vh;
+  margin-bottom: -0.1vh;
+  border-bottom: 0.1vh solid rgba(230, 230, 230, 0.01);
+  transition: 0.5s;
+}
+
+.center-icon:hover {
+  border-bottom: 0.1vh solid #01b5c9;
+  background-color: rgba(230, 230, 230, 0.05);
+  color: white;
+  cursor: pointer;
+}
+
+
+
+.nav-box-right {
+  flex: 1 1 5vw;
+  padding: 1.3vh;
+  border-bottom: 0.1vh solid rgba(230, 230, 230, 0.01);
+  text-align: center;
+  margin-bottom: -0.1vh;
+  transition: 0.5s;
+}
+
+.nav-box-right:hover {
+  border-bottom: 0.1vh solid #01b5c9;
+  background-color: rgba(230, 230, 230, 0.05);
+  color: white;
+  cursor: pointer;
+}
+
+ul {
+  z-index: 1;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #303134;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border-bottom: 0.1vh solid rgba(230, 230, 230, 0.5);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #c4c4c4;
+  text-align: center;
+  padding: 1.5vh 1.5vh;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+li a:hover:not(.active) {
+  background-color: rgba(230, 230, 230, 0.05);
+  color: white;
+}
+
+footer {
+  background-color: #303134;
+  border-top: 0.1vh solid rgba(230, 230, 230, 0.5);
+  margin-top: 3vh;
+  width: 100%;
+  text-align: center;
+}
+
+
+

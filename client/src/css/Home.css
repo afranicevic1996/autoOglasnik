@@ -1,0 +1,130 @@
+.main-data-container {
+  display: inline-block;
+  width: 60%;
+  margin-left: auto;
+}
+
+.results-container {
+  display: inline-block;
+  width: 100%;
+  background-color: #303134;
+}
+
+.pagination-container {
+  width: 100%;
+}
+
+.advanced-search-container {
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+  margin-left: 1%;
+  border-bottom: 0.1vh solid rgba(230, 230, 230, 0.5);
+  background-color: #303134;
+  margin-right: 2%;
+  text-align: center;
+}
+
+.advanced-search-input {
+  width: 100%;
+  margin: auto;
+  background-color: none;
+}
+
+.section-name {
+  padding-top: 0.2vh;
+  padding-bottom: 0.2vh;
+  border-bottom: 0.1vh solid rgba(230, 230, 230, 0.5);
+  display: block;
+}
+
+.section-data {
+  /*background-color: rgba(230, 230, 230, 0.1);*/
+  background-color: #303134;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+
+.section-data > input {
+  color: #c4c4c4;
+  background: none;
+  padding: 0.5vh 0.25vw;
+  width: 40%;
+  border: 0.1vh solid rgba(230, 230, 230, 0.5);
+  border-radius: 0px;
+  transition: 0.5s;
+}
+
+.section-data > input:focus {
+  outline: none;
+  color: white;
+  border-radius: 4px;
+  border: 0.1vh solid #01b5c9;
+  box-shadow: 0px 1px 12px -1px rgba(1, 181, 201, 0.3);
+}
+
+.section-data > select {
+  color: #c4c4c4;
+  background: none;
+  padding: 0.5vh 0.25vw;
+  width: 50%;
+  border: 0.1vh solid rgba(230, 230, 230, 0.5);
+  border-radius: 0px;
+  box-sizing: content-box;
+  transition: 0.5s;
+}
+
+.section-data > select:focus {
+  outline: none;
+  color: white;
+  border-radius: 4px;
+  border: 0.1vh solid #01b5c9;
+  box-shadow: 0px 1px 12px -1px rgba(1, 181, 201, 0.3);
+}
+
+.section-data > select * {
+  color: #c4c4c4;
+  background-color: #48484B;
+}
+
+input[type="checkbox"] {
+  accent-color: #01b5c9;
+}
+
+.pick-button {
+  all: unset;
+  border: 0.1vh solid #01b5c9;
+  padding: 0.6vh 0.8vh;
+  transition: 0.5s;
+}
+
+.pick-button:hover {
+  background-color:  #01b5c9;
+  color: white;
+  cursor: pointer;
+}
+
+.remove-option {
+  text-align: center;
+  padding: 0.2vh;
+  display: inline-block;
+  cursor: pointer;
+  border: 0.1vh solid #01b5c9;
+  background-color: rgba(1, 181, 201, 0.5);
+  font-size: 75%;
+  margin-right: 0.5%;
+  margin-top: 0.5%;
+  transition: 0.5s;
+}
+
+.remove-option:hover {
+  background-color: #01b5c9;
+  color: white;
+}
+
+.remove-x {
+  padding: 0.2vh;
+  padding-left: 0.4vh;
+  padding-right: 0.2vh;
+  border-left: 0.1vh solid rgba(230, 230, 230, 0.5);
+}

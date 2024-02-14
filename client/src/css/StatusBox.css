@@ -1,0 +1,32 @@
+.status-box {
+  background-color: #303134;
+  color: #c4c4c4;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  position: fixed;
+  z-index: 1;
+  top: 10%;
+  left: 0%;
+  text-align: center;
+  animation: statusPop 0.35s forwards;
+  cursor: pointer;
+}
+
+.greenTxt {
+  border-bottom: 0.15vh solid green;
+}
+
+.redTxt {
+  border-bottom: 0.15vh solid salmon;
+}
+
+@keyframes statusPop {
+  from{
+    width: 0px;
+  }
+  to{
+    width: 20%;
+  }
+}
