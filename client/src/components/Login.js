@@ -11,6 +11,7 @@ import { useContext, useEffect, createContext } from "react";
 import { isLoggedIn } from "./helpers/authChecker";
 
 import "../css/Login.css";
+//adresa iz env
 const apiAddress = process.env.REACT_APP_API_ADDRESS;
 
 const Login = () => {

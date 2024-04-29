@@ -3,6 +3,7 @@ const dotenv = require('dotenv').config();
 var County = require("../models/CountyModel");
 
 exports.getAllCounties = async (req, res) => {
+    //get all
   var counties = await County.getCounties();
   if(!counties){
     var data = {error: true, message: "No counties found!"}

@@ -20,6 +20,7 @@ exports.isLoggedIn = async (req, res) => {
 }
 
 exports.logout = async (req, res) => {
+    //logout
   var token = req.cookies.tokenCookie;
 
   if(!token)
